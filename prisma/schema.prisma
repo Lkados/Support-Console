@@ -1,0 +1,69 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model users {
+  id        Int        @id @default(autoincrement())
+  email     String     @unique
+  name      String
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @default(now())
+  requests  requests[]
+}
+
+model parteners {
+  id        Int        @id @default(autoincrement())
+  email     String     @unique
+  name      String?
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @default(now())
+  requests  requests[]
+}
+
+model types {
+  id        Int        @id @default(autoincrement())
+  name      String     @unique
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @default(now())
+  requests  requests[]
+}
+
+model status {
+  id        Int        @id @default(autoincrement())
+  name      String     @unique
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @default(now())
+  requests  requests[]
+}
+
+model requests {
+  id          Int        @id @default(autoincrement())
+  subject     String
+  description String
+  type_id     Int
+  user_id     Int
+  partener_id Int
+  status_id   Int
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @default(now())
+  types       types      @relation(fields: [type_id], references: [id])
+  users       users      @relation(fields: [user_id], references: [id])
+  parteners   parteners  @relation(fields: [partener_id], references: [id])
+  status      status     @relation(fields: [status_id], references: [id])
+  messages    messages[]
+}
+
+model messages {
+  id         Int      @id @default(autoincrement())
+  sender     String
+  message    String
+  request_id Int
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @default(now())
+  requests   requests @relation(fields: [request_id], references: [id])
+}

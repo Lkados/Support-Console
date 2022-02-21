@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="627c0423-148f-4375-becc-b4a94a14b296" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.ts" beforeDir="false" afterPath="$PROJECT_DIR$/script.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/answers_controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/answers_controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib_services/services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib_services/services.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="256yP98C2xUtYGoaaQzyR3ZGncC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kittenTricks" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\AvumiSupport" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="627c0423-148f-4375-becc-b4a94a14b296" name="Changes" comment="" />
+      <created>1644861804210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644861804210</updated>
+      <workItem from="1644861805632" duration="10426000" />
+      <workItem from="1645004656735" duration="8601000" />
+      <workItem from="1645099382068" duration="681000" />
+      <workItem from="1645212728300" duration="2277000" />
+      <workItem from="1645262322256" duration="3238000" />
+      <workItem from="1645348792297" duration="98000" />
+      <workItem from="1645348903851" duration="101000" />
+      <workItem from="1645349023033" duration="1376000" />
+      <workItem from="1645351370043" duration="967000" />
+      <workItem from="1645370268551" duration="2436000" />
+      <workItem from="1645445598447" duration="4283000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
